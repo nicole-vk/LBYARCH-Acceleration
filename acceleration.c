@@ -30,10 +30,10 @@ int main(){
 		ptMatrix[i][2] = time;
 	}
 	
-
-	// pass parameter & print output
+	// print output
+	printf("\n");
 	for(int i = 0; i < nCars; i++){
-		int acceleration = computeAcceleration(ptMatrix[i][0], ptMatrix[i][1], ptMatrix[i][2]);		// avoid passing array as it may modify the value
+		int acceleration = computeAcceleration(ptMatrix[i][0], ptMatrix[i][1], ptMatrix[i][2]);		// avoid passing array
 		
 		printf("%d\n", acceleration);
 	}

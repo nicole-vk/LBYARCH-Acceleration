@@ -15,7 +15,7 @@ computeAcceleration:
     
     VSUBSS XMM3, XMM1, XMM0                                 ; XMM3 = XMM1 - XMM0
     
-    convert_KM/H_to_m/s:
+    convert_KMPerH_to_mPers:
         VMULSS XMM3, XMM3, [ONEk]                           ; XMM3 = (Vf - Vi) * 1000M/H
         
         MOVSS XMM1, [ONE]
