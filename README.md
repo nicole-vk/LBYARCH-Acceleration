@@ -7,6 +7,7 @@ Factors that are needed to compute acceleration (m/s ):
 3. Time (T) - the total time consumed to reach 1KM.
  
 The formula for acceleration is:
+    
     Acceleration = (Vf - Vi) / T
 
 # How to compile?
