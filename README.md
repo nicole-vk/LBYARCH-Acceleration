@@ -1,3 +1,7 @@
+# Members from Group 1 LBYARCH S11A
+   - Shi, Nicole Jia Ying
+   - Friginal, Roj Aleck Rosal
+
 # Introduction
 A car's peformance is usually measured using an acceleration test with a 1KM distance. Some cars are measured from a cold start (they start at 0KM/H), some are tested from a hot start (the car is running at a stable speed and then accelerates).
  
@@ -9,11 +13,6 @@ Factors that are needed to compute acceleration (m/s ):
 The formula for acceleration is:
     
     Acceleration = (Vf - Vi) / T
-
-
-## Members from Group 1 LBYARCH S11A
-1. Shi, Nicole Jia Ying
-2. Friginal, Roj Aleck Rosal
 
 
 # How to compile?
