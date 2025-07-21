@@ -15,7 +15,7 @@ The formula for acceleration is:
     Acceleration = (Vf - Vi) / T
 
 
-# How to compile?
+# Compilation
 
      >nasm -f win64 asmAcceleration.asm
 
