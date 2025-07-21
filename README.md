@@ -10,6 +10,12 @@ The formula for acceleration is:
     
     Acceleration = (Vf - Vi) / T
 
+
+## Members from Group 1 LBYARCH S11A
+1. Shi, Nicole Jia Ying
+2. Friginal, Roj Aleck Rosal
+
+
 # How to compile?
 
      >nasm -f win64 asmAcceleration.asm
