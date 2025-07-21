@@ -5,27 +5,19 @@
 typedef float matrix[3];	                                                            // declare 1D matrix
 extern int computeAcceleration(float initialV, float finalV, float timeConsumed);
 
-int checkValid(char answer){
-	if(answer == 'Y' || answer == 'y')
-		return 0;
-	else if(answer == 'N' || answer == 'n')
-		return 0;
-	
-	return 1;
+int isValidAnswer(char answer){
+	return (answer == 'Y' || answer == 'y' || answer == 'N' || answer == 'n') ? 0 : 1;
 }
 
 char checkAnswer(char answer){
-	if(answer == 'Y' || answer == 'y')
-		return 'Y';
-	
-	return 'N';
+	return (answer == 'Y' || answer == 'y') ? 'Y' : 'N';
 }
 
 int main(){
 	int nCars;
 	char answer;
 	float initialV, finalV, timeConsumed;
-    matrix *ptMatrix = NULL;
+	matrix *ptMatrix = NULL;
 	
 
     printf("Enter number of cars to generate: ");                                   // ask for number of cars
@@ -42,7 +34,7 @@ int main(){
 		printf("Do you want to generate the inputs randomly (Y/N): ");
 		scanf(" %c", &answer);
 
-	}while(checkValid(answer));
+	}while(isValidAnswer(answer));
 	
 	
 	switch(checkAnswer(answer)){
