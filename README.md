@@ -78,6 +78,13 @@ Do you want to generate the inputs randomly (Y/N): Y
 2
 ```
 
+## Sample Results
+<img width="422" height="691" alt="image" src="https://github.com/user-attachments/assets/c822d18d-927d-4022-b9df-9996b6bbdbb5" />
+<img width="426" height="390" alt="image" src="https://github.com/user-attachments/assets/4b9dfc11-33b0-4168-b3b9-447a0e790699" />  
+
+
+
+
 ---
 
 
