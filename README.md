@@ -33,9 +33,9 @@ The formula for acceleration is:
 30.0 160.7 7.8
 
 ### Input:
-For Y = 3
+Enter number of cars to generate: 3  
+Do you want to generate the inputs randomly (Y/N): N
 ```
-3
 0.0 62.5 10.1
 60.0 122.3 5.5
 30.0 160.7 7.8
@@ -49,9 +49,9 @@ For Y = 3
 ```
 
 ### Input:
-For Y = 10
+Enter number of cars to generate: 10   
+Do you want to generate the inputs randomly (Y/N): Y
 ```
-10
 35.56 88.39 2.79
 61.22 146.24 1.76
 55.42 150.81 11.40
@@ -79,3 +79,10 @@ For Y = 10
 ```
 
 ---
+
+
+# Video Demonstration
+
+Link:    
+[Video Demo](https://drive.google.com/file/d/1_MEEIkCmwhHmggro99mRcVGDTFq5eVai/view?usp=sharing)
+
