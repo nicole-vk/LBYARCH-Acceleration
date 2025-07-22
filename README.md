@@ -26,19 +26,19 @@ The formula for acceleration is:
      >c.exe
 
 ## Test Cases 
-   Given sample input :
+Given sample input :
 3
-0.0 62.5 10.1
-60.0 122.3 5.5
-30.0 160.7 7.8
+0.0, 62.5, 10.1
+60.0, 122.3, 5.5
+30.0, 160.7, 7.8
 
 ### Input:
 Enter number of cars to generate: 3  
 Do you want to generate the inputs randomly (Y/N): N
 ```
-0.0 62.5 10.1
-60.0 122.3 5.5
-30.0 160.7 7.8
+0.0, 62.5, 10.1
+60.0, 122.3, 5.5
+30.0, 160.7, 7.8
 ```
 
 ### Expected Output:
@@ -52,30 +52,30 @@ Do you want to generate the inputs randomly (Y/N): N
 Enter number of cars to generate: 10   
 Do you want to generate the inputs randomly (Y/N): Y
 ```
-35.56 88.39 2.79
-61.22 146.24 1.76
-55.42 150.81 11.40
-75.80 77.94 13.06
-49.47 87.57 7.89
-18.79 50.90 6.12
-58.44 128.07 13.61
-14.44 144.14 15.57
-84.49 177.71 16.37
-0.53 121.40 9.86
+35.56, 88.39, 2.79
+61.22, 146.24, 1.76
+55.42, 150.81, 11.40
+75.80, 77.94, 13.06
+49.47, 87.57, 7.89
+18.79, 50.90, 6.12
+58.44, 128.07, 13.61
+14.44, 144.14, 15.57
+84.49, 177.71, 16.37
+0.53, 121.40, 9.86
 ```
 
 ### Expected Output:
 ```
+5
+13
 2
-20
-20
-2
-1
-1
+0
 1
 1
 1
 2
+2
+3
 ```
 
 ## Sample Results
