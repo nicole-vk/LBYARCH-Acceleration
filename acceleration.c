@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 #include <time.h>
 
 typedef float matrix[3];	                                                            // declare 1D matrix
@@ -14,14 +15,24 @@ char checkAnswer(char answer){
 }
 
 int main(){
-	int nCars;
+	int nCars, result;
 	char answer;
 	float initialV, finalV, timeConsumed;
 	matrix *ptMatrix = NULL;
 	
 
-    printf("Enter number of cars to generate: ");                                   // ask for number of cars
-    scanf("%d", &nCars);
+    do {
+        printf("Enter number of cars to generate: ");
+        result = scanf("%d", &nCars);												// returns 1 if an integer was successfully read
+
+        if (result != 1) {
+            printf("Invalid input. Please enter a valid number.\n");
+
+            while (getchar() != '\n');  											// clear the input buffer and discard leftover characters
+        }
+
+    } while (result != 1);
+	
 
     ptMatrix = malloc(nCars * sizeof(matrix));                                      // dynamically allocates a 2D array (row x 3).
     if (!ptMatrix) {
@@ -33,6 +44,9 @@ int main(){
 	do{
 		printf("Do you want to generate the inputs randomly (Y/N): ");
 		scanf(" %c", &answer);
+
+		if (isValidAnswer(answer))
+			while (getchar() != '\n');
 
 	}while(isValidAnswer(answer));
 	
